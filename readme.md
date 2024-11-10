@@ -8,6 +8,7 @@ Right Second from Bottom to D1
 
 There is an issue that the A0 values read only go from 9-1024, and the last 20% or so of the slide all return 1024.
 
+```
 void setup() {
   // Start the serial communication at 9600 baud rate
   Serial.begin(9600);
@@ -23,3 +24,4 @@ void loop() {
   // Add a small delay for readability
   delay(500);  // Delay in milliseconds (500ms)
 }
+```
